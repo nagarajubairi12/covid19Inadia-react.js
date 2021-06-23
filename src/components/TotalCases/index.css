@@ -1,0 +1,83 @@
+.item-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 30px;
+  padding: 20px;
+}
+.item-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.total-cards {
+  color: #ff073a;
+  font-family: 'Roboto';
+  weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  margin: 20px;
+}
+@media screen and (max-width: 600px) {
+  .total-cards {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+}
+
+.total-heading {
+  font-size: 26px;
+}
+@media screen and (max-width: 600px) {
+  .total-heading {
+    font-size: 18px;
+  }
+}
+.confirmed-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+@media screen and (max-width: 600px) {
+  .confirmed-logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+.total-number {
+  font-size: 28px;
+}
+@media screen and (max-width: 600px) {
+  .total-number {
+    font-size: 20px;
+  }
+}
+.total-cards1 {
+  color: #007bff;
+}
+.total-cards2 {
+  color: #28a745;
+}
+.total-cards3 {
+  color: #6c757d;
+}
+.total-cards0:hover {
+  background: #331427;
+  border-radius: 12px;
+}
+.total-cards1:hover {
+  background: #132240;
+  border-radius: 12px;
+}
+.total-cards2:hover {
+  background: #182829;
+  border-radius: 12px;
+}
+.total-cards3:hover {
+  background: #212230;
+  border-radius: 12px;
+}

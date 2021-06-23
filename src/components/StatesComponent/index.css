@@ -1,0 +1,11 @@
+.state-list-items {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background: #ffffff;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+.state-name-title {
+  align-items: flex-start;
+}

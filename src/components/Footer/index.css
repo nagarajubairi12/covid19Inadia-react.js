@@ -1,0 +1,47 @@
+.footer-container {
+  font-family: 'Roboto';
+  margin-top: 60px;
+  width: 80%;
+  padding: 30px;
+}
+.footer-image-container {
+  text-align: center;
+}
+.footer-image {
+  width: 156px;
+  height: 32px;
+}
+@media screen and (max-width: 600px) {
+  .footer-image {
+    width: 104px;
+    height: 24px;
+  }
+}
+.footer-paragraph {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  color: #94a3b8;
+}
+@media screen and (max-width: 600px) {
+  .footer-paragraph {
+    font-size: 14px;
+  }
+}
+.footer-logo {
+  width: 60px;
+  height: 60px;
+}
+@media screen and (max-width: 600px) {
+  .footer-logo {
+    width: 45px;
+    height: 45px;
+  }
+}
+.footer-logo-card {
+  display: flex;
+  justify-content: center;
+}
+.footer-logo-sec {
+  padding: 20px;
+}

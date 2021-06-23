@@ -1,0 +1,64 @@
+.about-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-section {
+  width: 80%;
+}
+@media screen and (max-width: 600px) {
+  .about-section {
+    width: 80%;
+  }
+}
+.about-heading {
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 44px;
+}
+@media screen and (max-width: 600px) {
+  .about-heading {
+    font-size: 22px;
+  }
+  .about-update {
+    color: #94a3b8;
+    font-weight: normal;
+    font-size: 14px;
+  }
+}
+
+.about-update {
+  color: #94a3b8;
+  font-weight: normal;
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+  .about-update {
+    color: #94a3b8;
+    font-weight: normal;
+    font-size: 14px;
+  }
+}
+.about-covid {
+  font-weight: 500;
+  font-size: 24px;
+  color: #e2e8f0;
+}
+@media screen and (max-width: 600px) {
+  .about-covid {
+    font-size: 18px;
+  }
+}
+.about-question {
+  font-weight: 500;
+  font-size: 16px;
+  color: #94a3b8;
+  padding-top: 20px;
+}
+.footer-anw {
+  font-weight: 500;
+  font-size: 16px;
+  color: #007bff;
+  line-height: 1.8;
+}
